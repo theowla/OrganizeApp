@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}OrganizeApp{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <h1>OrganizeApp</h1>
+    {% block content %}{% endblock %}
+    <footer>
+        {% block footer %}© 2024 OrganizeApp{% endblock %} 
+    </footer>
+</body>
+</html>
