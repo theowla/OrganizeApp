@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class OrdenaConfig(AppConfig):
+class LangAiConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "Ordena"
+    name = "LangAi"
